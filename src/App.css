@@ -23,21 +23,23 @@ main{
   margin: auto;
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
-  gap: 5rem;
+  gap: 1rem;
   text-align: center;
 }
 
 .Die {
   display: inline-flex;
-  width: 10rem;
-  height: 10rem;
+  width: 35px;
+  height: 35px;
+  max-width: 70px;
+  max-height: 70px;
   background-color: #ffffff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
   border-radius: 3.81277px;
   text-align: center;
   color:#2b283a;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
   cursor: pointer;
